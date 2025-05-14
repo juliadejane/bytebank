@@ -1,4 +1,4 @@
-import { Armazenador } from "./Armazenador";
+import { Armazenador } from "./Armazenador.js";
 import { ValidaDebito, ValidaDeposito } from "./Decorators.js";
 import { GrupoTransacao } from "./GrupoTransacao.js";
 import { TipoTransacao } from "./TipoTransacao.js";
