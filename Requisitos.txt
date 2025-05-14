@@ -1,4 +1,4 @@
-* Cada transação realizada no sistema deve possuir SOMENTE as seguintes informações:
+* Cada transação realizada no sistema deve possuir APENAS as seguintes informações:
   1) Data da Transação (Date)
   2) Tipo de Transação (Depósito, Transferência, Pagamento de Boleto)
   3) Valor da Transação (valor maior que zero)
@@ -17,4 +17,4 @@
 
 * Os componentes
   - Nova transação: deve apenas coletar as informações do form da interface e repassar os dados para o módulo Conta 
-  - Saldo: deve exibir as informações de data de acesso e do saldo para o usuário na interface acessando esses dados através do módulo Conta 
+  - Saldo: deve exibir as informações de data de acesso e do saldo para o usuário na interface acessando esses dados através do módulo Conta
